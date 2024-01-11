@@ -6,31 +6,31 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Damla",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Metin Orak",
+  message: " Unity Developer ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/damlaMtn",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
+    // {
+    //   image: "fa-instagram",
+    //   url: "https://www.instagram.com/hashirshoaeb/",
+    // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/damla-metin-orak-039567104/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/hashirshoaeb/",
+    // },
   ],
 };
 
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hello! With over four years of experience as a Unity developer, I am passionate about creating engaging and immersive games and applications that leverage the power of Unity and C#. I enjoy working with a team of talented and diverse developers, designers, and artists who share the same vision and mission of delivering high-quality products and experiences.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -66,38 +66,38 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "damlaMtn", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
+  // show: false,
+  // heading: "Leadership",
+  // message:
+  //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  // images: [
+  //   { 
+  //     img: require("../editable-stuff/hashirshoaeb.png"), 
+  //     label: "First slide label", 
+  //     paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+  //   },
+  //   { 
+  //     img: require("../editable-stuff/hashirshoaeb.png"), 
+  //     label: "Second slide label", 
+  //     paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+  //   },
+  // ],
+  // imageSize: {
+  //   width:"615",
+  //   height:"450"
+  // }
 };
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -126,23 +126,53 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently open for Unity Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "damla91@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Unity Developer - Magic Media',// Here Add Company Name
+      companylogo: require('../assets/img/magicmedia.jpeg'),
+      date: 'July 2022 – December 2023',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Unity Developer - Sarente Information Technologies',
+      companylogo: require('../assets/img/sarente.jpeg'),
+      date: 'August 2021 - June 2022',
+    },
+    {
+      role: 'Unity Developer - DVM Technology Incorporated',
+      companylogo: require('../assets/img/dvm.jpeg'),
+      date: 'May 2021 - August 2021',
+    },
+    {
+      role: 'Computer Engineer - Gempa Elektro Mekanik Mühendislik',
+      companylogo: require('../assets/img/gempa.jpeg'),
+      date: 'September 2019 - April 2021',
+    },
+    {
+      role: 'Computer Engineer - Arinlabs',
+      companylogo: require('../assets/img/arinlabs.jpeg'),
+      date: 'October 2018 - May 2019',
+    },
+    {
+      role: 'Unity Developer - Kuasar Information Technologies',
+      companylogo: require('../assets/img/kuasar.jpg'),
+      date: 'August 2016 - April 2018',
+    },
+    {
+      role: 'System Support Engineer & Software Specialist - Infopark Information Technologies',
+      companylogo: require('../assets/img/infopark.jpeg'),
+      date: 'March 2015 - August 2016',
+    },
+    {
+      role: 'Software Support Specialist - Verisis',
+      companylogo: require('../assets/img/verisis.jpeg'),
+      date: 'May 2014 - October 2014',
     },
   ]
 }
