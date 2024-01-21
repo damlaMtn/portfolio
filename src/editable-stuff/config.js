@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
   message:
-    "Hello! With over four years of experience as a Unity developer, I am passionate about creating engaging and immersive games and applications that leverage the power of Unity and C#. I enjoy working with a team of talented and diverse developers, designers, and artists who share the same vision and mission of delivering high-quality products and experiences.",
+    "Hello! With over four years of experience as a Unity developer, I am passionate about creating engaging and immersive games and applications that leverage the power of Unity and C#. I enjoy working with a team of talented and diverse developers, designers, and artists who share the same vision and mission of delivering high-quality products and experiences. I am always eager to learn new technologies and tools that can enhance my performance and creativity as a Unity developer.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -65,7 +65,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Projects",
   gitHubUsername: "damlaMtn", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
