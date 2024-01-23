@@ -25,7 +25,7 @@ const mainBody = {
     // },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/damla-metin-orak-039567104/",
+      url: "hhttps://www.linkedin.com/in/damlametinorak/",
     },
     // {
     //   image: "fa-twitter",
