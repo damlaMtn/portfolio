@@ -25,7 +25,7 @@ const mainBody = {
     // },
     {
       image: "fa-linkedin",
-      url: "hhttps://www.linkedin.com/in/damlametinorak/",
+      url: "https://www.linkedin.com/in/damlametinorak/",
     },
     // {
     //   image: "fa-twitter",
