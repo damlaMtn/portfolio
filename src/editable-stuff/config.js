@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Damla",
   middleName: "",
   lastName: "Metin Orak",
-  message: " Unity Developer ",
+  message: " Software Developer ",
   icons: [
     {
       image: "fa-github",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
   message:
-    "Hello! With over four years of experience as a Unity developer, I am passionate about creating engaging and immersive games and applications that leverage the power of Unity and C#. I enjoy working with a team of talented and diverse developers, designers, and artists who share the same vision and mission of delivering high-quality products and experiences. I am always eager to learn new technologies and tools that can enhance my performance and creativity as a Unity developer.",
+    "Hello! I am an experienced software developer with a diverse background, specializing in C# programming. My career includes extensive experience as a Unity developer, where I honed my skills in game development, as well as various roles in software development. With a strong foundation in computer engineering, I bring a blend of technical proficiency and creative problem-solving to every project. My commitment to continuous learning and adaptability ensures I stay at the forefront of industry advancements.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -67,7 +67,7 @@ const repos = {
   show: true,
   heading: "Projects",
   gitHubUsername: "damlaMtn", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently open for Unity Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently open for Software Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "damla91@gmail.com",
 };
 
@@ -168,11 +168,6 @@ const experiences = {
       role: 'System Support Engineer & Software Specialist - Infopark Information Technologies',
       companylogo: require('../assets/img/infopark.jpeg'),
       date: 'March 2015 - August 2016',
-    },
-    {
-      role: 'Software Support Specialist - Verisis',
-      companylogo: require('../assets/img/verisis.jpeg'),
-      date: 'May 2014 - October 2014',
     },
   ]
 }
