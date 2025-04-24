@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
   message:
-    "Hello! I am an experienced software developer with a diverse background, specializing in C# programming. My career includes extensive experience as a Unity developer, where I honed my skills in game development, as well as various roles in software development. With a strong foundation in computer engineering, I bring a blend of technical proficiency and creative problem-solving to every project. My commitment to continuous learning and adaptability ensures I stay at the forefront of industry advancements.",
+    "I'm a software developer with over 7 years of experience, specializing in C# and object-oriented programming. Most of my journey has been in game development using Unity, where I built scalable systems, tackled performance challenges, and worked closely with cross-functional teams. Recently, I’ve been shifting my focus toward backend and web development using .NET technologies—especially ASP.NET Core and RESTful APIs. I’m passionate about clean code, solving real-world problems, and continuously growing as a developer. I'm currently seeking .NET Developer roles where I can apply my C# expertise in new contexts, contribute to meaningful projects, and keep leveling up in backend development.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -67,7 +67,7 @@ const repos = {
   show: true,
   heading: "Projects",
   gitHubUsername: "damlaMtn", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 4,
   specificRepos: [],
 };
 
