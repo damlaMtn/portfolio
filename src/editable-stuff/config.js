@@ -53,10 +53,11 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
-  message:
-    "I'm a software developer with over 7 years of experience, specializing in C# and object-oriented programming. Most of my journey has been in game development using Unity, where I built scalable systems, tackled performance challenges, and worked closely with cross-functional teams. Recently, I’ve been shifting my focus toward backend and web development using .NET technologies—especially ASP.NET Core and RESTful APIs. I’m passionate about clean code, solving real-world problems, and continuously growing as a developer. I'm currently seeking .NET Developer roles where I can apply my C# expertise in new contexts, contribute to meaningful projects, and keep leveling up in backend development.",
+  message: "I'm a .NET Developer with a software engineering background and experience in game development, system support, and application development. Working with Unity sharpened my problem-solving skills and attention to detail, which I apply to building reliable .NET applications. I primarily use C#, .NET, and SQL, and continuously improve my coding practices. Experienced with Git, I work well independently and in teams. I'm seeking a .NET Developer role where I can learn, contribute, and grow. Feel free to connect, I'm open to new opportunities.",  
+
   resume: require("../editable-stuff/resume.pdf"),
 };
+
 
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
