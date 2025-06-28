@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Damla",
   middleName: "",
   lastName: "Metin Orak",
-  message: " Software Developer ",
+  message: " .NET Developer | C# | ASP.NET Core",
   icons: [
     {
       image: "fa-github",
@@ -53,7 +53,8 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
-  message: "I'm a .NET Developer with a software engineering background and experience in game development, system support, and application development. Working with Unity sharpened my problem-solving skills and attention to detail, which I apply to building reliable .NET applications. I primarily use C#, .NET, and SQL, and continuously improve my coding practices. Experienced with Git, I work well independently and in teams. I'm seeking a .NET Developer role where I can learn, contribute, and grow. Feel free to connect, I'm open to new opportunities.",  
+  message: "I'm a .NET Developer with a background in software engineering and several years of experience across different roles, including game development, system support, and application development. My time working in Unity sharpened my problem-solving skills and attention to detail, qualities I now apply to building clean, reliable, and scalable backend solutions with .NET.\n\nI dedicated the past year to deepening my backend development skills, focusing on C#, ASP.NET Core, Entity Framework, and SQL. I'm passionate about writing maintainable code, learning best practices, and continuously improving how I design and structure software.\n\nI'm also experienced with Git and enjoy working both independently and in collaborative, agile teams. Currently, I'm looking for a .NET Developer role where I can keep growing, contribute meaningfully, and be part of a supportive team.",
+ 
 
   resume: require("../editable-stuff/resume.pdf"),
 };
@@ -127,7 +128,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently open for Software Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently open for .NET Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "damla91@gmail.com",
 };
 
@@ -136,27 +137,27 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Unity Developer - Magic Media',// Here Add Company Name
+      role: 'Software Engineer (Unity/C#) - Magic Media',// Here Add Company Name
       companylogo: require('../assets/img/magicmedia.jpeg'),
       date: 'July 2022 – December 2023',
     },
     {
-      role: 'Unity Developer - Sarente Information Technologies',
+      role: 'Software Engineer (Unity/C#) - Sarente Information Technologies',
       companylogo: require('../assets/img/sarente.jpeg'),
       date: 'August 2021 - June 2022',
     },
     {
-      role: 'Unity Developer - DVM Technology Incorporated',
+      role: 'Software Engineer (Unity/C#) - DVM Technology Incorporated',
       companylogo: require('../assets/img/dvm.jpeg'),
       date: 'May 2021 - August 2021',
     },
     {
-      role: 'Computer Engineer - Gempa Elektro Mekanik Mühendislik',
+      role: 'Software Engineer - Gempa Elektro Mekanik Mühendislik',
       companylogo: require('../assets/img/gempa.jpeg'),
       date: 'September 2019 - April 2021',
     },
     {
-      role: 'Computer Engineer - Arinlabs',
+      role: 'Software Engineer - Arinlabs',
       companylogo: require('../assets/img/arinlabs.jpeg'),
       date: 'October 2018 - May 2019',
     },
