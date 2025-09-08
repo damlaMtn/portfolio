@@ -53,7 +53,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/damla.png"),
   imageSize: 375,
-  message: "I'm a .NET Developer with a background in software engineering and several years of experience across different roles, including game development, system support, and application development. My time working in Unity sharpened my problem-solving skills and attention to detail, qualities I now apply to building clean, reliable, and scalable backend solutions with .NET.\n\nI dedicated the past year to deepening my backend development skills, focusing on C#, ASP.NET Core, Entity Framework, and SQL. I'm passionate about writing maintainable code, learning best practices, and continuously improving how I design and structure software.\n\nI'm also experienced with Git and enjoy working both independently and in collaborative, agile teams. Currently, I'm looking for a .NET Developer role where I can keep growing, contribute meaningfully, and be part of a supportive team.",
+  message: "I'm a software engineer with 7+ years of experience, transitioning from game development to .NET development. I specialize in building robust, scalable applications with C#, ASP.NET Core, Entity Framework, and SQL Server. Passionate about clean architecture, maintainable code, and continuous learning, I enjoy working independently or in collaborative, agile teams. Currently, I'm expanding my portfolio on GitHub and seeking .NET developer roles where I can grow and contribute meaningfully.",
  
 
   resume: require("../editable-stuff/resume.pdf"),
